@@ -1,0 +1,19 @@
+using python
+read Amazon.in_bags.html and parse it with beautisulsoap
+find all
+div with class="s-card-container s-overflow-hidden aok-relative puis-wide-grid-style puis-wide-grid-style-t1 puis-include-content-margin puis puis-v3b48cl1js792724v4d69zlbwph s-latency-cf-section s-card-border"
+
+for all the div
+try find a with class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/sspa/click?ie=UTF8&amp;spc=MToxMzgzNzgzNjg5MDc5NTk4OjE2OTI2OTMyNTQ6c3BfYXRmOjMwMDAzNjc2MTg4MTUzMjo6MDo6&amp;url=%2FRansel-School-Bag-Bagpack-Creations%2Fdp%2FB0CDCHXMCJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2M096C61O4MLT%26keywords%3Dbags%26qid%3D1692693254%26sprefix%3Dba%252Caps%252C283%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1" and store it in URLs
+except URLs = ""
+
+try find span with class="a-size-medium a-color-base a-text-normal" and store it in Name
+except Names = ""
+
+try find span with class="a-price-whole" and store it in Prices
+except Prices = ""
+
+try find span with class="a-size-base puis-normal-weight-text" and store it in Reviews
+except Reviews = ""
+
+open an excel file and write URLs, Names, Prices and Reviews in it
